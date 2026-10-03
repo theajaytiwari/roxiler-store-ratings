@@ -169,3 +169,34 @@ GitHub: [@theajaytiwari](https://github.com/theajaytiwari)
 ---
 
 Built as a full-stack development assessment project.
+
+
+## Demo Login Credentials
+
+After completing the database setup and running the seed script,
+you can use the following accounts to explore the application locally.
+
+| Role | Email | Password |
+|---|---|---|
+| System Administrator | admin@example.com | Admin@123 |
+| Normal User | user@example.com | Admin@123 |
+| Store Owner | owner@example.com | Admin@123 |
+
+### Demo Account Setup
+
+1. Configure PostgreSQL and the backend environment variables.
+2. Initialize the database using `Backend/schema.sql`.
+3. Open a terminal in the `Backend` directory.
+4. Run `npm ci`.
+5. Run `npm run seed` to create the demo accounts and store.
+6. Start the backend using `npm run dev`.
+7. In another terminal, run `npm ci` and `npm run dev` inside `Frontend`.
+8. Open the frontend URL displayed in the terminal and log in
+   with the credentials listed above.
+
+### Important
+
+These credentials are for local assessment and demonstration only.
+Do not use them in a production environment. Remove or replace
+demo credentials before deploying the application publicly.
+
